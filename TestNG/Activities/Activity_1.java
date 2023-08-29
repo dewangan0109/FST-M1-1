@@ -9,7 +9,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 
-public class Activity1 {
+public class Activity_1 {
 	WebDriver driver;
   @Test
   public void verifyTitle() {
