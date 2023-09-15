@@ -39,7 +39,7 @@ public class Activity_9 {
 	  wait.until(ExpectedConditions.titleIs("Add Job ‹ Alchemy Jobs — WordPress"));
 	  
 	  driver.findElement(By.id("post-title-0")).sendKeys("qwert_job");
-	  driver.findElement(By.id("_application")).sendKeys("qwerty@hotmail.com");
+	  driver.findElement(By.id("_application")).sendKeys("test123@gmailmail.com");
 	  driver.findElement(By.id("_company_website")).sendKeys("https://alchemy.hguy.co/");
 	  driver.findElement(By.id("_job_expires")).sendKeys("March 24, 2022");
 	  driver.findElement(By.id("_job_location")).sendKeys("India");
