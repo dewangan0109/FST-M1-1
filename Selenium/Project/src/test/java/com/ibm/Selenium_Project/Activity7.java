@@ -29,7 +29,7 @@ public class Activity_7 {
 	  driver.findElement(By.linkText("Post a Job")).click();
 	  wait.until(ExpectedConditions.titleIs("Post a Job – Alchemy Jobs"));
 	  
-	  driver.findElement(By.id("create_account_email")).sendKeys("yuio92@gmailmail.com");
+	  driver.findElement(By.id("create_account_email")).sendKeys("test123@gmailmail.com");
 	  driver.findElement(By.id("job_title")).sendKeys("Test_ab");
 	  driver.findElement(By.id("job_location")).sendKeys("India");
 	  driver.findElement(By.id("application")).sendKeys("https://alchemy.hguy.co/");
@@ -37,7 +37,7 @@ public class Activity_7 {
 	  driver.findElement(By.id("company_website")).sendKeys("https://alchemy.hguy.co/");
 	  driver.findElement(By.id("company_tagline")).sendKeys("Company tag line");
 	  driver.switchTo().frame(driver.findElement(By.id("job_description_ifr")));
-	  driver.findElement(By.id("tinymce")).sendKeys("gdyasgdajsdbhsdsd uiyub");
+	  driver.findElement(By.id("tinymce")).sendKeys("test edyw");
 	  driver.switchTo().defaultContent();
 	  
 	  driver.findElement(By.name("submit_job")).click();
@@ -72,4 +72,3 @@ public class Activity_7 {
 	  driver.close();
   }
 }
-
