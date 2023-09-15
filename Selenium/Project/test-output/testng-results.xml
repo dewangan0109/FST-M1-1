@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-04T18:06:00 IST" name="Default Suite" finished-at="2022-04-04T18:06:14 IST" duration-ms="13796">
+    <groups>
+    </groups>
+    <test started-at="2022-04-04T18:06:00 IST" name="FST_TestNG" finished-at="2022-04-04T18:06:14 IST" duration-ms="13796">
+      <class name="liveProject.Activity9">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:liveProject.Activity9@11dc3715]" started-at="2022-04-04T18:06:00 IST" name="setUp" finished-at="2022-04-04T18:06:07 IST" duration-ms="6841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateHomePageTest()[pri:0, instance:liveProject.Activity9@11dc3715]" started-at="2022-04-04T18:06:07 IST" name="validateHomePageTest" finished-at="2022-04-04T18:06:10 IST" duration-ms="2498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomePageTest -->
+        <test-method signature="printTableNamesAndUserTest()[pri:0, instance:liveProject.Activity9@11dc3715]" started-at="2022-04-04T18:06:10 IST" name="printTableNamesAndUserTest" finished-at="2022-04-04T18:06:13 IST" depends-on-methods="liveProject.Activity9.validateHomePageTest" duration-ms="3663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printTableNamesAndUserTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:liveProject.Activity9@11dc3715]" started-at="2022-04-04T18:06:13 IST" name="tearDown" finished-at="2022-04-04T18:06:14 IST" duration-ms="761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- liveProject.Activity9 -->
+    </test> <!-- FST_TestNG -->
+  </suite> <!-- Default Suite -->
+</testng-results>
